@@ -1,0 +1,41 @@
+I participated in a hackathon to develop the Telegmam bot of the Moscow Zoo.
+
+This bot contains a test at the end that digests the total substance. It is also possible to leave an assessment of the connection, the item "leave a review". The review does not just happen in the database, it is immediately sent to all administrators on the list, who is available and what they wrote.
+
+If the user writes an unknown command, the bot gives him a hint that he does not understand and what needs to be done in order to continue.
+
+The bot creates a database of users. who enter it. If the user has already been, then he does not write it down so that there is no duplication of entries.
+
+
+In the Moskow_ZOO_Presentation folder there is a presentation of this bot.
+The photo folder contains all the photos that are involved in it.
+the video folder contains all the video files that are involved in it.
+SQLite database.
+The db.py file describes the logic for connecting and working with the database.
+In the logics.py file, all the logic of the test for determining the totem animal.
+The main.py file starts the bot and there are all the main commands.
+All the necessary constants are in the parametrs.py file.
+In the text_check.py file, the logic for checking the text that we receive from the user and the bot writes a hint if it does not see commands familiar to it in this text.
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+                                  <-"RUS"->
+
+Я принимал участие в хакатоне для разработки Telegmam-бота Московского Зоопарка.
+
+Этот бот проводит тест в конце которого присваивает пользователю тотемное животное. Так же есть возможность оставить обратную связь, нажав кнопку "оставить отзыв". Отзыв не просто попадает в базу данных, сразу происходит рассылка всем администраторам кто есть в списке, в сообщении отражается вся информация, кто написал и что написали.
+
+Если пользователь пишет не известную команду, бот выводит ему подсказку, что он его не понимает и что нужно нажать, чтобы продолжить.
+
+Бот формирует базу данных пользователей. которые заходят в него. Если пользователь уже был, то он его не записавает, чтобы не было дублирования записей.
+
+В папке Moskow_ZOO_Presentation презентация данного бота.
+В папке photo находятся все фотографии которые задействованы в нем.
+в папке video находятся все видео файлы которые задействованы в нем.
+База данных SQLite.
+В Файле db.py описанна логика подключения и работы с базой данных.
+В файле logics.py вся логика теста по определению тотемного животного.
+Файл main.py запускает бота и там все основные команды.
+В файле parametrs.py все необходимые константы.
+В файле text_check.py логика проверки текста, который мы получаем от пользователя и бот пишет подсказку если не видит в этом тексте знакомых ему команд.
